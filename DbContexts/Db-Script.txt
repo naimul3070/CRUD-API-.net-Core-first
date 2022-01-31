@@ -1,0 +1,7 @@
+**** Write Scaffold **********************
+//Windows
+scaffold-DbContext "Data Source=10.209.99.174;Initial Catalog=CRUD;User ID=naimul;Password=N@imul3070;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models/Write" -ContextDir "DbContexts" -Context "WriteDbContext"  -t User -f
+
+**** Read Scaffold ***********************
+//Windows
+scaffold-DbContext "Data Source=10.209.99.174;Initial Catalog=CRUD;User ID=naimul;Password=N@imul3070;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models/Read" -ContextDir "DbContexts" -Context "ReadDbContext" -t User -f
